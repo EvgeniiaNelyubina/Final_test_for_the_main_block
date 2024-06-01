@@ -16,3 +16,18 @@ class Program
                 count++;
             }
         }
+
+         string[] filteredArray = new string[count];
+        int index = 0;
+
+        foreach (string str in array)
+        {
+            if (str.Length <= 3)
+            {
+                filteredArray[index] = str;
+                index++;
+            }
+        }
+
+        return filteredArray;
+    }
