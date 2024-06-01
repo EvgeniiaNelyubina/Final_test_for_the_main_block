@@ -31,3 +31,32 @@ class Program
 
         return filteredArray;
     }
+
+     static void Main(string[] args)
+    {
+        Console.Write("Введите количество строк в массиве: ");
+        int n = int.Parse(Console.ReadLine());
+
+        string[] inputArray = new string[n];
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write("Введите строку {0}: ", i + 1);
+            inputArray[i] = Console.ReadLine();
+        }
+
+        string[] filteredArray = FilterStrings(inputArray);
+
+        Console.WriteLine("Отфильтрованный массив:");
+        if (filteredArray.Length == 0)
+        {
+            Console.WriteLine("Таких строк в массиве не найдено");
+        }
+        else
+        {
+            foreach (string str in filteredArray)
+            {
+                Console.WriteLine(str);
+            }
+        }
+    }
+}
