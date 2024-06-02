@@ -1,0 +1,65 @@
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Folders (you can keep bin if you'd like as well)
+bin/
+obj/
+debug/
+release/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Auto-generated files
+*.csproj.user
+*.csproj.DotSettings
+
+# Log files
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# IDEs and editors specific files
+.idea/
+*.DotSettings
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
